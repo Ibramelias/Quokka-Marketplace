@@ -78,9 +78,9 @@ const cloudinary = require("cloudinary");
 //Configure cloudinary resource
 //Need to make a cloudinary account for the .env file
 cloudinary.config({
-  cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.CLOUD_API_KEY,
-  api_secret: process.env.CLOUD_API_SECRET,
+  cloud_name: "dvz1xdhyx",
+  api_key: '881331519819488',
+  api_secret: "qlZOdJ_aIMvyNnmvpL0DnT9I-MI",
 });
 
 //Post to cloudinary
