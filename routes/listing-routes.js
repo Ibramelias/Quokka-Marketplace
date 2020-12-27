@@ -3,6 +3,7 @@ const passport = require("../config/passport");
 const router = require("express").Router();
 const fs = require("fs");
 const dotenv = require("dotenv").config();
+console.log(process.env);
 const axios = require("axios");
 
 router.get("/api/listings", function (req, res) {
@@ -79,8 +80,8 @@ const cloudinary = require("cloudinary");
 //Need to make a cloudinary account for the .env file
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.CLOUD_API_KEY,
-  api_secret: process.env.CLOUD_API_SECRET,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
 });
 
 //Post to cloudinary
