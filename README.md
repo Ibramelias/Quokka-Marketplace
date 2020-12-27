@@ -42,3 +42,11 @@ https://projecttwo-rutgers.herokuapp.com/
 <hr>
 
 Please checkout our GitHub profiles [DevDan13](https://github.com/DevDan13) [Gavin56](https://github.com/Gavin56) [dargenioa](https://github.com/dargenioa) [Christopher-Lamb](https://github.com/Christopher-Lamb) and Me for more of our work.
+
+
+
+## Supportive Image.
+![](Assets/Screen%20Shot%202020-12-26%20at%2010.14.35%20PM%201.png)
+
+
+
