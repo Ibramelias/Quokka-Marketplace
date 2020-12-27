@@ -5,7 +5,7 @@ const authenticated = require("../config/middleware/authenticated");
 //Upon Entry to site
 router.get("/", function (req, res) {
   if (req.user) {
-    res.redirect("/home");
+    res.redirect("/members");
   }
   res.sendFile(path.join(__dirname, "../public/signup.html"));
 });
@@ -25,7 +25,7 @@ router.get("/edit-listing", function (req, res) {
 //Send User to signup.html
 router.get("/signup", function (req, res) {
   if (req.user) {
-    res.redirect("/home");
+    res.redirect("/members");
   }
   res.sendFile(path.join(__dirname, "../public/signup.html"));
 });
